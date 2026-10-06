@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>그라디언트</title>
+    <style>
+      .box {
+        width: 300px;
+        height: 200px;
+        background: linear-gradient(
+          90deg,
+          gold 0%,
+          blue 50%,
+          tomato 100%
+        ); /*gradient():각도,색,색,색*/
+      }
+      .box2 {
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(
+          90deg,
+          gold 0% 33%,
+          blue 33% 70%,
+          red 70% 100%
+        );
+      }
+      .box3 {
+        width: 300px;
+        height: 300px;
+        background:
+          linear-gradient(217deg, red, transparent 70%),
+          linear-gradient(127deg, lime, transparent 70%),
+          linear-gradient(336deg, blue, transparent 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 전체 레이아웃 */
+.wrap {
+  width: 1200px;
+  background-color: red;
+  margin: 0 auto;
+}
+/* 헤더 */
+header {
+  padding: 30px;
+  background-color: aqua;
+  text-align: center;
+}
+/* 메인 */
+main {
+  background-color: beige;
+  display: flex;
+  gap: 20px;
+  align-items: start;
+}
+.sidebar {
+    /* position:sticky:화면에서 지정한 px만큼 붙어서 스크롤 */
+  position: sticky;
+  top: 20px;
+  width: 30%;
+  padding: 20px;
+
+  background-color: yellowgreen;
+}
+.content {
+  width: 70%;
+  background-color: springgreen;
+}
+.section {
+  height: 500px;
+}
+/* 풋터 */
+footer {
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+}

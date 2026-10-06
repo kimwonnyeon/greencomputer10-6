@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fixed */
+.box{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+/* 카드영역 */
+.contents {
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  background-color: red;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.contents img {
+  width: 100%;
+  display: block;
+}
+.products {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* 상품 설명 글자 */
+.text1 {
+  color: red;
+}
+.text3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+/* 금액 */
+.price {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.text4 {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+.text5 {
+  font-size: 16px;
+}
+/* 실습 */
+/* 카드 영역 */
+.contents2 {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.contents2 img {
+  width: 100%;
+  display: block;
+}
+.products2 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* 상품 설명 글자 */
+.text11 {
+  color: red;
+}
+.text33 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+/* 금액 */
+.price2 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.text44 {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+.text55 {
+  font-size: 16px;
+}

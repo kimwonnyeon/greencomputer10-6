@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position 속성</title>
+    <style>
+      .box {
+        /* static:기본 상태 */
+        position: static;
+        top: 50px; /*적용안됨*/
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      .box1 {
+        /* relative */
+        /* position: relative; */
+        top: 50px;
+        left: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: aqua;
+      }
+      .area{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+      }
+      .box2 {
+        /* absolute */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- position:부모요소가 자식요소에 되물림되지않는다. -->
+    <!-- static: 기본상태 -->
+    <div class="box"></div>
+    <!-- relative:현재 자기위치를 기준으로 이동한다. -->
+    <div class="box1"></div>
+    <!-- absolute:부모요소를 기준으로 원하는 위치로 배치/부모요소에 relative 필요 -->
+    <div class="area">
+        <div class="box2"></div>
+    </div>
+  </body>
+</html>

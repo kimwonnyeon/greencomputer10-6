@@ -15,6 +15,23 @@ header {
   background-color: aqua;
   text-align: center;
 }
+/* 네비게이션 */
+nav{
+    background-color: #333;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
 /* 메인 */
 main {
   background-color: beige;
@@ -25,7 +42,7 @@ main {
 .sidebar {
     /* position:sticky:화면에서 지정한 px만큼 붙어서 스크롤 */
   position: sticky;
-  top: 20px;
+  top:63.33px;
   width: 30%;
   padding: 20px;
 
